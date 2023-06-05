@@ -1,0 +1,144 @@
+#mainTitle {
+  color: #FFFFFF;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+.header {
+  padding: 20px;
+  text-align: left;
+  
+}
+body {
+  margin: 0;
+  background-color: #f5bfd2;
+}
+#mainSection {
+  display: flex;
+  
+}
+#inputBox{
+  border: 2px ;
+  flex: 1;
+  background-color:#a1cdce;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+}
+#displayBox {
+  border: 2px ;
+  flex: 1;
+  background-color:#a1cdce;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+}
+h3 {
+  text-align : center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #ffffff
+}
+
+input {
+  margin: 20px;
+  width: 75%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.submit {
+  background-color: #beb4c5;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit:hover,
+.submit:focus {
+  background-color: #e6af7e;
+}
+
+#myUL {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 24px;
+  color: #ffffff
+}
+
+.close {
+  position : absolute;
+  
+  
+}
+
+.close:hover {
+  color: black;
+}
+
+ul {
+  margin: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  transition: 0.2s;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+ul li:hover{
+  color: #888;
+}
+ul li.checked {
+  background: #e0f0f3;
+  color: #888;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.tenor-gif-embed {
+  padding: 20px;
+  border-radius:10px;
+}
